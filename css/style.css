@@ -1,6 +1,5 @@
 :root {
-  --primary-font: 'Roboto', sans-serif;
-  --secondary-font: 'Raleway', sans-serif;
+  --primary-font: 'Raleway', sans-serif;
   --text-hover-focus-color: #404BBF;
 }
 
@@ -14,11 +13,11 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-
+/*--------Logo--------*/
 
 
 .logo {
-    font-family: var(--secondary-font);
+    font-family: var(--primary-font);
     color: #2E2F42;
     font-style: normal;
     font-weight: 800;
@@ -31,6 +30,8 @@ body {
     
 }
 
+/*--------NAV--------*/
+
 .nav-link {
 font-weight: 500;
 font-size: 16px;
@@ -40,10 +41,19 @@ text-decoration: none;
 
 }
 
-.nav-link:hover
-.nav-link:focus {
- color: #404BBF;
+/*-----HOVER-FOCUS------*/
+
+.nav-link:hover,
+.nav-link:focus,
+.mail-link:hover,
+.mail-link:focus,
+.tel-link:hover,
+.tel-link:focus,
+.button-hero:hover,
+.button-hero:focus {
+ color: var(--text-hover-focus-color);
 }
+/*---------Contact--------*/
 
 .mail-link {
 font-family: 'Roboto';
@@ -54,7 +64,6 @@ line-height: 1.5;
 color: #434455;
 }
 .tel-link {
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -62,6 +71,31 @@ color: #434455;
     color: #434455;
 }
 
+/*-----Hero-----*/
+
+.hero {
+ background-color: #2E2F42;
+}
+
+.hero-text {
+
+font-style: normal;
+font-weight: 700;
+font-size: 56px;
+line-height:1.11;
+color: #FFFFFF;
+text-align: center;
+}
+
+.button-hero {
+font-family: 'Roboto';
+background-color: #4D5AE5;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+cursor: pointer;
+}
 
  
 
