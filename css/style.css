@@ -10,30 +10,28 @@ body {
     background-color: #FFFFFF;
     font-family: 'Roboto', sans-serif;
 }
-ul {
-    list-style: none;
-}
---------------/*Logo*/-----------------
+
 
 .logo {
     font-family: var(--secondary-font);
+    color: #2E2F42;
     font-style: normal;
-   font-weight: 800;
-   font-size: 18px;
-   line-height: 1.33;
-   color:  #2E2F42;
-
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    text-decoration:none;
 }
 .site-logo {
-    color: #4D5AE5;;
+    color: #4D5AE5;
+    
 }
 
 --------------/*Link nav*/--------------
 .link-nav {
-font-family: 'Roboto';
-font-style: normal;
+
 font-weight: 500;
 font-size: 16px;
+line-height: 1.5;
 color: #2E2F42;
 }
 
