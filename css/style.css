@@ -2,9 +2,12 @@
   --primary-font: 'Roboto', sans-serif;
   --secondary-font: 'Raleway', sans-serif;
   
-
-  
 }
+
+.list {
+    list-style: none;
+}
+
 
 body {
     background-color: #FFFFFF;
@@ -12,6 +15,8 @@ body {
 }
 
 
+
+/*HEADER*/
 .logo {
     font-family: var(--secondary-font);
     color: #2E2F42;
@@ -26,18 +31,17 @@ body {
     
 }
 
---------------/*Link nav*/--------------
-.link-nav {
-
+.nav-link {
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 color: #2E2F42;
+text-decoration: none;
+
 }
 
+.nav-link:hover
+.nav-link:focus {
+    color: #404BBF;
+}
 
---------------/*Hero*/--------------
-
---------------/*Main*/--------------
-
---------------/*Footer*/--------------
