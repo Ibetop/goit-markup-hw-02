@@ -42,6 +42,29 @@ text-decoration: none;
 
 .nav-link:hover
 .nav-link:focus {
-    color: #404BBF;
+ color: tomato;
 }
 
+.mail-link {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+color: #434455;
+}
+.tel-link {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #434455;
+}
+
+.mail-link:hover,
+.mail-link:focus,
+.tel-link:hover,
+.tel-link:focus, {
+    color: #404BBF;
+}
