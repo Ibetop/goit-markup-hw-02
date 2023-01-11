@@ -1,7 +1,7 @@
 :root {
   --primary-font: 'Roboto', sans-serif;
   --secondary-font: 'Raleway', sans-serif;
-  
+  --text-hover-focus-color: #404BBF;
 }
 
 .list {
@@ -16,7 +16,7 @@ body {
 
 
 
-/*HEADER*/
+
 .logo {
     font-family: var(--secondary-font);
     color: #2E2F42;
@@ -42,7 +42,7 @@ text-decoration: none;
 
 .nav-link:hover
 .nav-link:focus {
- color: tomato;
+ color: #404BBF;
 }
 
 .mail-link {
@@ -62,9 +62,7 @@ color: #434455;
     color: #434455;
 }
 
-.mail-link:hover,
-.mail-link:focus,
-.tel-link:hover,
-.tel-link:focus, {
-    color: #404BBF;
-}
+
+ 
+
+
