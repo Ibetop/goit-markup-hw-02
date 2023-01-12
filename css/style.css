@@ -1,12 +1,13 @@
 :root {
   --primary-font: 'Raleway', sans-serif;
   --text-hover-focus-color: #404BBF;
+  --primary-text-color: #2E2F42;
+  --secondari-text-color: #434455;
 }
 
 .list {
     list-style: none;
 }
-
 
 body {
     background-color: #FFFFFF;
@@ -19,7 +20,6 @@ body {
 .logo {
     font-family: var(--primary-font);
     color: #2E2F42;
-    font-style: normal;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.33;
@@ -55,31 +55,24 @@ text-decoration: none;
 }
 /*---------Contact--------*/
 
-.mail-link {
-font-family: 'Roboto';
+.mail-link,
+.tel-link {
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
-color: #434455;
-}
-.tel-link {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    color: #434455;
+text-decoration: none;
+color: var(--secondari-text-color);
 }
 
 /*-----Hero-----*/
 
 .hero {
- background-color: #2E2F42;
+ background-color: var(--primary-text-color)
 }
 
 .hero-text {
 
-font-style: normal;
 font-weight: 700;
 font-size: 56px;
 line-height:1.11;
@@ -88,15 +81,94 @@ text-align: center;
 }
 
 .button-hero {
-font-family: 'Roboto';
 background-color: #4D5AE5;
-font-style: normal;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 cursor: pointer;
+color: #FFFFFF;
+letter-spacing: 0.04;
 }
 
+/*-----Main-----*/
+
+.main-title {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+color: var(--primary-text-color)
+}
  
+.main-text {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+color: var(--secondari-text-color);
+}
 
+/*-----Main-photos-list-----*/
+.photos-title {
+ font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  color: var(--primary-text-color)
+}
 
+/*-----Main-team-----*/
+
+.main-team {
+    background-color: #F4F4FD;
+}
+.team {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+text-align: center;
+color: var(--primary-text-color)
+}
+.team-title {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+color: var(--primary-text-color)
+}
+
+.team-text {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+color: var(--secondari-text-color);
+
+/*-----Footer-----*/
+.footer {
+    background-color: #2E2F42;
+}
+.logo-footer {
+font-family: var(--primary-font);
+font-weight: 800;
+font-size: 18px;
+line-height: 1.33;
+color: #F4F4FD;
+text-decoration: none;
+}
+.footer-text {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+color: #E7E9FC;
+}
+
+/*-------------------PORTFOLIO-------------------*/
+
+.button-portfolio {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    cursor: pointer;
+    color: #4D5AE5;
+    letter-spacing: 0.04em;
+}
+.button-portfolio:hover {
+background-color: #404BBF;
+}
