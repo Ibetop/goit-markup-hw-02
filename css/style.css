@@ -12,11 +12,10 @@
 body {
     background-color: #FFFFFF;
     font-family: 'Roboto', sans-serif;
+    color:var(--secondari-text-color)
 }
 
 /*--------Logo--------*/
-
-
 .logo {
     font-family: var(--primary-font);
     color: #2E2F42;
@@ -29,7 +28,6 @@ body {
     color: #4D5AE5;
     
 }
-
 /*--------NAV--------*/
 
 .nav-link {
@@ -48,9 +46,7 @@ text-decoration: none;
 .mail-link:hover,
 .mail-link:focus,
 .tel-link:hover,
-.tel-link:focus,
-.button-hero:hover,
-.button-hero:focus {
+.tel-link:focus {
  color: var(--text-hover-focus-color);
 }
 /*---------Contact--------*/
@@ -88,6 +84,11 @@ line-height: 1.5;
 cursor: pointer;
 color: #FFFFFF;
 letter-spacing: 0.04;
+}
+
+.button-hero:hover,
+.button-hero:focus {
+    background-color: var(--text-hover-focus-color);
 }
 
 /*-----Main-----*/
@@ -139,18 +140,21 @@ font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 color: var(--secondari-text-color);
+}
 
 /*-----Footer-----*/
+
 .footer {
-    background-color: #2E2F42;
+    background-color: var(--primary-text-color)
 }
+
 .logo-footer {
-font-family: var(--primary-font);
 font-weight: 800;
 font-size: 18px;
 line-height: 1.33;
 color: #F4F4FD;
 text-decoration: none;
+font-family: var(--primary-font);
 }
 .footer-text {
 font-weight: 400;
@@ -165,10 +169,27 @@ color: #E7E9FC;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    cursor: pointer;
+    font-family: inherit;
     color: #4D5AE5;
-    letter-spacing: 0.04em;
+    cursor: pointer;
 }
 .button-portfolio:hover {
-background-color: #404BBF;
+    color: #FFFFFF;
+    background-color: var(--text-hover-focus-color);
 }
+
+.transation-title {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+color: var(--primary-text-color);
+}
+
+.transation-text {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.2;
+color: var(--secondari-text-color);
+} 
+
+
